@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recipe Hub</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background-color: #ff7043;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      margin-top: 10px;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Hero Section */
+    .hero {
+      background-color: #fff3e0;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    /* Recipes Section */
+    .recipes {
+      padding: 40px 20px;
+      background-color: #ffffff;
+    }
+
+    .recipes h3 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .recipe-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .recipe-card {
+      background-color: #ffe0b2;
+      padding: 20px;
+      border-radius: 8px;
+      width: 250px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Footer */
+    footer {
+      background-color: #ff7043;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Recipe Hub</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Recipe Hub!</h2>
+    <p>Discover delicious recipes from around the world.</p>
+  </section>
+
+  <section class="recipes">
+    <h3>Featured Recipes</h3>
+    <div class="recipe-list">
+      <div class="recipe-card">
+        <h4>Spaghetti Bolognese</h4>
+        <p>A classic Italian pasta dish with rich meat sauce.</p>
+      </div>
+      <div class="recipe-card">
+        <h4>Chicken Curry</h4>
+        <p>Spicy and flavorful chicken curry with herbs and spices.</p>
+      </div>
+      <div class="recipe-card">
+        <h4>Vegetable Stir-Fry</h4>
+        <p>Healthy and colorful mix of veggies stir-fried in soy sauce.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Recipe Hub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
